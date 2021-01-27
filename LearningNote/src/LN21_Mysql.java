@@ -11,11 +11,11 @@ import java.sql.SQLException;
 public class LN21_Mysql {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         //指定JDBC驱动
-        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
         Connection myConnection = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/test",
+                "jdbc:mysql://localhost:3306/mysql",
                 "root",
-                "l287017217"
+                "lzn123"
         );
         System.out.println("here");
 
