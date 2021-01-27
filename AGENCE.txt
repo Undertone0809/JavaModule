@@ -1,0 +1,13 @@
+OpenMV是一个开源，低成本，功能强大的机器视觉模块。以STM32F427CPU为核心，集成了OV7725摄像头芯片，在小巧的硬件模块上，用C语言高效地实现了核心机器视觉算法，提供Python编程接口。使用者们（包括发明家、爱好者以及智能设备开发商）可以用Python语言使用OpenMV提供的机器视觉功能，为自己的产品和发明增加有特色的竞争力。
+OpenMV上的机器视觉算法包括寻找色块、人脸检测、眼球跟踪、边缘检测、标志跟踪等。可以用来实现非法入侵检测、产品的残次品筛选、跟踪固定的标记物等。使用者仅需要写一些简单的Python代码，即可轻松的完成各种机器视觉相关的任务。
+
+qtdesigner dic:
+D:\Programming\Python\Python3.7\Scripts
+
+mysql password: cC7qC0DyYd&h
+
+https://www.bilibili.com/video/BV13C4y187FT?p=19
+https://www.bilibili.com/video/BV1Rx411876f?p=689
+https://space.bilibili.com/76542346/video?keyword=%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84
+
+机智云：https://www.gizwits.com/

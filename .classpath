@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AWTTest/src"/>
+	<classpathentry kind="src" path="FunctionModule/src"/>
+	<classpathentry kind="src" path="HangDian/src"/>
+	<classpathentry kind="src" path="LearningNote/src"/>
+	<classpathentry kind="src" path="NiuNiu/src"/>
+	<classpathentry kind="src" path="TestModule/src"/>
+	<classpathentry kind="output" path="TestModule/out/production/HangDian"/>
+</classpath>
