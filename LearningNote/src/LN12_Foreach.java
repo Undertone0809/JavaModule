@@ -14,12 +14,14 @@ public class LN12_Foreach {
             arrayList.add(i);
         }
         //迭代器遍历
+        System.out.println("iterator____________________________");
         Iterator<Integer> it =arrayList.iterator();
         while(it.hasNext()){
             Integer num = it.next();
             System.out.println(num);
         }
         //foreach
+        System.out.println("foreach_______________________________");
         for(Integer num: arrayList){
             System.out.println(num);
         }

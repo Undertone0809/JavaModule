@@ -22,8 +22,8 @@ public class 动态规划_2 {
     public static int method(int x,int y){
         int [][] f= new int[x+1][y+1];
 
-        for (int i = 1; i < x+1; i++) {
-            for(int j = 1;j < y+1 ;j++){
+        for (int i = 0; i < x+1; i++) {
+            for(int j = 0;j < y+1 ;j++){
                 //init
                 if(i == 0 || j ==0){
                     f[i][j] = 1;
