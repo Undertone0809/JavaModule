@@ -50,7 +50,7 @@ public class SpecializedNumbers {
             //拆分后相加
             num2 += Integer.parseInt(String.valueOf(arr2[i]),12);
         }
-        //十六进制下每个数字相加为num3
+        //十六进制下每个数字相加为num
         char []arr3 =Integer.toHexString(a).toCharArray();
         for (int i = 0; i < arr3.length; i++) {
             num3 += Integer.parseInt(String.valueOf(arr3[i]),16);

@@ -32,7 +32,7 @@ public class 冒泡排序法 {
     //冒泡排序法的快速调用
     public static int[] method(int []arr){
         for (int i = arr.length-1;i >= 0 ; i--) {
-            for(int j =0;j < i;j++){
+            for(int j =0;j < i ;j++){
                 if(arr[j] > arr[j+1]){
                     int temp =arr[j];
                     arr[j] = arr[j+1];
