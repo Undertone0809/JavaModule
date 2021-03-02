@@ -16,7 +16,8 @@ public class LN21_Mysql_2 {
                 "root",
                 "lzn123"
         );
-        //创建语句
+        System.out.println("连接成功");
+        //创建执行对象
         Statement st = myConnection.createStatement();
 
         //执行语句
