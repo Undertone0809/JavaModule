@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
  * @date ：Created in 2021/2/4 12:14
  * @version: 1.0$
  */
-
 public class 质数判断 {
     public static boolean isPrime(int x){
         if(x < 2)return false;
@@ -17,8 +16,17 @@ public class 质数判断 {
         }
         return true;
     }
-    //埃拉托斯特尼筛法
 
+
+
+    //找到下一个质数
+    public static int nextZhiShu(int num){
+        for(int i=num+1;;i++){
+            if(isPrime(i)) return i;
+        }
+    }
+
+    //埃拉托斯特尼筛法
     /**
      * 埃拉托斯特尼筛法是一个快速获取小于数X的所有素数集合的算法。
      * 首先我们要明确，假设一个合数x能表示为两个数的乘积，他必定有一个小于等于sqrt(x)的因子，这可以用归谬证明法证明。如果两个因子都大于sqrt(x)，那么乘积大于x,这和假设矛盾。
@@ -36,6 +44,8 @@ public class 质数判断 {
      * 注意这里有一个优化点，很多书籍上或者教程上都没有说出来，只要标记大于本身的倍数就行了，例如5，只要标记5*5,5*6,5*7…为合数，因为5*2,5*3,5*4…已经被之前出现的数的倍数标记过了
      */
 
+
+    //返回一个质数数组
     public static List<Integer> findPrimes(int max) {
 
         List<Integer> list = new ArrayList<>();

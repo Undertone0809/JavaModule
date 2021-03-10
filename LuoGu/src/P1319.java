@@ -3,7 +3,7 @@
  * @date ：Created in 2021/3/2 19:51
  * @version: 1.0$
  */
-import java.util.ArrayList;
+//错误的答案
 import java.util.Scanner;
 public class P1319 {
     public static void main(String[] args) {
