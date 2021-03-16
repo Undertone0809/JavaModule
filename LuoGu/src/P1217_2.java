@@ -4,6 +4,7 @@
  * @version: 1.0$
  */
 //算法优化：判断是回文数的同时判断是否为质数
+//修改中，不能直接测试
 import java.util.Scanner;
 public class P1217_2 {
     public static void main(String[] args) {
